@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pkltekmiragmail.blutekmira">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mineral" />
+        <activity android:name=".tambang" />
+        <activity android:name=".lab" />
+        <activity android:name=".batubara" />
+        <activity android:name=".batubara_jasa" />
+        <activity android:name=".batubara_gasifier_fb" />
+        <activity android:name=".batubara_gasifier" />
+        <activity android:name=".batubara_fasilitas" />
+        <activity android:name=".batubara_karbonaktif" />
+        <activity android:name=".batubara_tungkusiklon" />
+        <activity android:name=".batubara_cwf_cwm" />
+        <activity android:name=".batubara_kokas" />
+        <activity android:name=".batubara_coaldrying" />
+        <activity android:name=".batubara_ubc" />
+        <activity android:name=".batubara_srbs" />
+        <activity android:name=".batubara_fasilitaslab" />
+        <activity android:name=".batubara_mitra" />
+        <activity android:name=".tambang_jasa" />
+        <activity android:name=".tambang_desain" />
+        <activity android:name=".tambang_pengeboran" />
+        <activity android:name=".tambanng_kajian_geoteknik" />
+        <activity android:name=".tambang_studi_hidrologi" />
+        <activity android:name=".tambang_manajemen" />
+        <activity android:name=".tambang_studi_rencana_reklamasi" />
+        <activity android:name=".tambang_studi_kelayakan" />
+        <activity android:name=".tambang_kajian_pertambangan_lainnya" />
+        <activity android:name=".tambang_kerjasama_pengembang" />
+        <activity android:name=".tambang_peralatan_pendukung_lab" />
+        <activity android:name=".tambang_peralatan_pendukung" />
+        <activity android:name=".tambang_software_pendukung" />
+        <activity android:name=".tambang_mitra" />
+        <activity android:name=".lab_jasa" />
+        <activity android:name=".lab_mineral" />
+        <activity android:name=".lab_batubara" />
+        <activity android:name=".lab_geomekanika" />
+        <activity android:name=".lab_jasa_bimbingan" />
+        <activity android:name=".mineral_jasa" />
+        <activity android:name=".mineral_rds" />
+        <activity android:name=".mineral_pilot" />
+        <activity android:name=".mineral_pupuk_bio" />
+        <activity android:name=".mineral_pupuk_kiserit" />
+        <activity android:name=".mineral_micro" />
+        <activity android:name=".mineral_nugget" />
+        <activity android:name=".mineral_mitra"></activity>
+    </application>
+
+</manifest>

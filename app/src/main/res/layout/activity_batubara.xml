@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".batubara">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon"
+                android:id="@+id/toolbarIcon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Batubara"
+                android:paddingTop="16dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/video"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pelayanan jasa/teknologi pengolahan dan pemanfaatan batubara"
+                android:layout_margin="8dp"
+                android:id="@+id/batubara_jasa"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gasifier fluidized bed"
+                android:layout_margin="8dp"
+                android:id="@+id/batubara_gasifier_fb"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gasifier batubara"
+                android:layout_margin="8dp"
+                android:id="@+id/batubara_gasifier_batubara"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fasilitas"
+                android:layout_margin="8dp"
+                android:id="@+id/fasilitas"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karbon aktif"
+                android:layout_margin="8dp"
+                android:id="@+id/karbon_aktif"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tungku siklon"
+                android:layout_margin="8dp"
+                android:id="@+id/tungku_siklon"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coal water fuel (CWF) / coal water mixture (cwm)"
+                android:layout_margin="8dp"
+                android:id="@+id/cwf"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="kokas"
+                android:layout_margin="8dp"
+                android:id="@+id/kokas"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="coal drying"
+                android:layout_margin="8dp"
+                android:id="@+id/coal_drying"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upgraded brown coal (ubc)"
+                android:layout_margin="8dp"
+                android:id="@+id/ubc"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Studio rancang bangun dan simulasi"
+                android:layout_margin="8dp"
+                android:id="@+id/studio"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fasilitas laboratorium"
+                android:layout_margin="8dp"
+                android:id="@+id/fasilitas_lab"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mitra"
+                android:layout_margin="8dp"
+                android:id="@+id/mitra"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/video">
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtube_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

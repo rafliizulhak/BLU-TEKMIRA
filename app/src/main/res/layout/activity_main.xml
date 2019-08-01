@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/homeblu3">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon"
+                android:id="@+id/toolbarIcon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BLU tekMIRA"
+                android:paddingTop="16dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageHome"
+            android:layout_width="380dp"
+            android:layout_height="260dp"
+            android:layout_marginTop="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gedung_blu_tekmira"
+            android:layout_centerHorizontal="true"/>
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageHome"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp">
+
+            <ImageButton
+                android:id="@+id/batubaraHome"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@android:color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/batubara" />
+
+            <TextView
+                android:id="@+id/tv_batubaraHome"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/batubaraHome"
+                android:fontFamily="Calibri"
+                android:gravity="center_horizontal"
+                android:text="Batubara"
+                android:textColor="#0f59a6"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/mineralHome"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="@android:color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mineral" />
+
+            <TextView
+                android:id="@+id/tv_mineralHome"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/mineralHome"
+                android:fontFamily="Calibri"
+                android:gravity="center_horizontal"
+                android:text="Mineral"
+                android:textColor="#0f59a6"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relative1"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp">
+
+            <ImageButton
+                android:id="@+id/tambangHome"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@android:color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tambang" />
+
+            <TextView
+                android:id="@+id/tv_tambangHome"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tambangHome"
+                android:fontFamily="Calibri"
+                android:gravity="center_horizontal"
+                android:text="Tambang"
+                android:textColor="#0f59a6"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/labHome"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="@android:color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lab" />
+
+            <TextView
+                android:id="@+id/tv_labHome"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/labHome"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="Calibri"
+                android:gravity="right"
+                android:text="Laboratorium"
+                android:textColor="#0f59a6"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

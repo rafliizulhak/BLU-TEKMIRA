@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tambang">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon"
+                android:id="@+id/toolbarIcon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tambang"
+                android:paddingTop="16dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/video"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/tambang_jasa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Jasa Pertambangan"
+                android:textColor="@android:color/white" />
+
+
+            <Button
+                android:id="@+id/tambang_desain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Desain Tambang"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/tambang_pengeboran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Pengeboran dan Perhitungan Cadangan Tertambang"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/tambang_kajian_geoteknik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Kajian Geoteknik"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/tambang_studi_hidrologi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Studi Hidrologi/Hidrogeologi"
+                android:textColor="@android:color/white" />
+
+
+            <Button
+                android:id="@+id/tambang_manajemen_lingkungan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Manajemen Lingkungan Pertambangan"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/tambang_studi_rencana_reklamasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Studi Rencana Reklamasi dan Pasca Tambang"
+                android:textColor="@android:color/white" />
+
+
+            <Button
+                android:id="@+id/tambang_studi_kelayakan_tambang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Studi Kelayakan Tambang"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/tambang_kajian_pertambangan_lainnya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Kajian Pertambangan Lainnya"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/tambang_kerjasama_pengembangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Kerja Sama Pengembangan Teknologi UCG"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/tambang_peralatan_pendukung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Peralatan Pendukung Laboratorium"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/tambang_peralatan_pendukung_kegiatan_pertambangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Peralatan Pendukung Kegiatan Pertambangan"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/tambang_software"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Software Pendukung Kegiatan Pertambangan"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/tambang_mitra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Mitra"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/video">
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtube_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

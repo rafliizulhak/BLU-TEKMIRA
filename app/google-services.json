@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "304605785230",
+    "firebase_url": "https://blu-tekmira.firebaseio.com",
+    "project_id": "blu-tekmira",
+    "storage_bucket": "blu-tekmira.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304605785230:android:a7e9a4d097d02892",
+        "android_client_info": {
+          "package_name": "com.pkltekmiragmail.blutekmira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304605785230-drs809ab9e19egnohtq2udt8ssts5mpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pkltekmiragmail.blutekmira",
+            "certificate_hash": "963b2196880abad39dfcc8eadc380439bb61ef79"
+          }
+        },
+        {
+          "client_id": "304605785230-sqj24msmjh3k4u464oa9cff2p9ua38sa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pkltekmiragmail.blutekmira",
+            "certificate_hash": "9171d68786d5c10ec86b996063a3c4a1fa863071"
+          }
+        },
+        {
+          "client_id": "304605785230-b9le9smv2r8u4ll956tqdmoeepbbdhj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-DDaTczov8jj0NKku9AE-12LyhMC5cMM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304605785230-b9le9smv2r8u4ll956tqdmoeepbbdhj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304605785230:android:8edfdfccfa4bbcc9",
+        "android_client_info": {
+          "package_name": "pkltekmiragmail.blutekmira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304605785230-espv8kj11kmu3aju7c7oh1qcskohjkmg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pkltekmiragmail.blutekmira",
+            "certificate_hash": "9171d68786d5c10ec86b996063a3c4a1fa863071"
+          }
+        },
+        {
+          "client_id": "304605785230-b9le9smv2r8u4ll956tqdmoeepbbdhj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-DDaTczov8jj0NKku9AE-12LyhMC5cMM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304605785230-b9le9smv2r8u4ll956tqdmoeepbbdhj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304605785230:android:f6c8421594eb4718",
+        "android_client_info": {
+          "package_name": "pkltekmiragmail.com.blutekmirav2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304605785230-vu7eb2m6f2pel23spvq0bi0oiur3n9c0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pkltekmiragmail.com.blutekmirav2",
+            "certificate_hash": "9171d68786d5c10ec86b996063a3c4a1fa863071"
+          }
+        },
+        {
+          "client_id": "304605785230-b9le9smv2r8u4ll956tqdmoeepbbdhj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-DDaTczov8jj0NKku9AE-12LyhMC5cMM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304605785230-b9le9smv2r8u4ll956tqdmoeepbbdhj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
